@@ -1,7 +1,7 @@
-package com.app.users.service;
+package microservicio.user.service;
 
-import com.app.users.model.User;
-import com.app.users.repository.UserRepository;
+import microservicio.user.model.User;
+import microservicio.user.repository.UserRepository;
 import org.springframework.stereotype.Service;
 import java.util.Optional;
 

@@ -1,12 +1,12 @@
-package com.app.users.controller;
+package microservicio.user.controller;
 
-import com.app.users.model.User;
-import com.app.users.service.UserService;
+import microservicio.user.model.User;
+import microservicio.user.service.UserService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/user")
+@RequestMapping("/api/users")
 @CrossOrigin(origins = "*")
 public class UserController {
 

@@ -1,6 +1,6 @@
-package com.app.users.repository;
+package microservicio.user.repository;
 
-import com.app.users.model.User;
+import microservicio.user.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.Optional;
