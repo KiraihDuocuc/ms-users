@@ -1,6 +1,6 @@
 package microservicio.user.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -21,7 +21,7 @@ public class User {
     @Column(unique = true, nullable = false)
     private String email;
     
-    @JsonIgnore // Evita enviar la contraseña al frontend
+    @JsonProperty(access = JsonProperty.Access.WRITE_ONLY) // permite recibir el login/register, pero no la devolverlo al frontend
     @Column(nullable = false)
     private String password;
     
