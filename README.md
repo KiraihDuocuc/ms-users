@@ -3,13 +3,6 @@
 
 Servicio REST desarrollado con Spring Boot para gestionar el registro, inicio de sesión y validación de roles de usuarios dentro de la plataforma.
 
-## Tecnologías
-
-* **Java 17** & **Spring Boot 3.2.0**
-* **Spring Data JPA**
-* **MySQL 8.0**
-* **Docker** & **Docker Compose**
-
 ## Cómo ejecutar el proyecto
 
 ### 1. Crear la red compartida
