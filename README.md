@@ -3,29 +3,9 @@
 
 Microservicio encargado de la gestión de usuarios, autenticación (registro e inicio de sesión) y validación de roles para el ecosistema de la aplicación (comunicándose con el frontend en React y el microservicio de mascotas `ms-pets`).
 
-## 🚀 Tecnologías Utilizadas
-
-* **Java 17**
-* **Spring Boot 3.2.0** (Spring Web, Spring Data JPA)
-* **MySQL 8.0**
-* **Lombok**
-* **Docker & Docker Compose**
-* **Maven**
-
 ---
 
-## 📋 Requisitos Previos
-
-* [Docker](https://www.docker.com/) y [Docker Compose](https://docs.docker.com/compose/) instalados.
-* Red externa de Docker creada (compartida con el microservicio de mascotas):
-  ```bash
-  docker network create nombre_red_ms_pets
-  ```
-* *(Opcional para ejecución local sin Docker)* JDK 17 y MySQL 8.0 corriendo localmente.
-
----
-
-## ⚙️ Variables de Entorno
+## Variables de Entorno
 
 El proyecto utiliza las siguientes variables de entorno configuradas en el `docker-compose.yml`:
 
