@@ -12,6 +12,7 @@ services:
       - SPRING_DATASOURCE_PASSWORD=rootpassword
       - JWT_SECRET=${JWT_SECRET}
       - JWT_EXPIRATION_MS=3600000
+      - INTERNAL_API_KEY=${INTERNAL_API_KEY:?Debes_configurar_INTERNAL_API_KEY}
     depends_on:
       ms-users-db:
         condition: service_healthy
